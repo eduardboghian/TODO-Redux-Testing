@@ -1,0 +1,93 @@
+﻿html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wr {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.todos {
+  width: 700px;
+  min-height: 40px;
+  background-color: #ddd;
+  margin: 10px 0;
+  line-height: 40px;
+  text-indent: 20px;
+  font-size: 20px;
+  border-radius: 7px;
+  font-family: 'Karla', sans-serif;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.none {
+  display: none;
+}
+
+.complete, .delete {
+  width: 70px;
+  height: 30px;
+  outline: none;
+  border-radius: 7px;
+  border: none;
+  float: right;
+  margin-right: 15px;
+  margin-top: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.todo {
+  float: left;
+}
+
+.complete {
+  background-color: rgb(15, 233, 59);
+}
+
+.delete {
+  background-color: rgb(250, 54, 54);
+}
+
+.add-field {
+  width: 700px;
+  min-height: 40px;
+  background-color: #ddd;
+  margin: 10px 0;
+  line-height: 40px;
+  text-indent: 20px;
+  font-size: 20px;
+  border-radius: 7px;
+  font-family: 'Karla', sans-serif;
+  outline: none;
+  border: none;
+}
+
+.add-button {
+  position: relative;
+  top: -50px;
+  left: -68px;
+  width: 70px;
+  height: 30px;
+  outline: none;
+  border-radius: 7px;
+  border: none;
+  float: right;
+  margin-right: 15px;
+  margin-top: 5px;
+  color: #fff;
+  background-color: rgb(31, 70, 208);
+  cursor: pointer;
+}
